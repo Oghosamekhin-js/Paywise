@@ -14,3 +14,4 @@ function showSlides(n) {
   slides.forEach(slide => slide.style.display = "none");
   slides[slideIndex].style.display = "block";
 }
+

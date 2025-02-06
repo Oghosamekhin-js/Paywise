@@ -1,0 +1,34 @@
+/* HEADER STARTS */
+header img{
+    height: 5.5rem;
+    padding: 0.4rem 6rem;
+}
+
+header{
+    display: flex;
+    gap: 7rem;
+    background-color: rgb(18, 52, 42);
+    border-bottom: 3px solid greenyellow;
+    position: fixed;
+    width: 100vw;
+    z-index: 20;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+}
+
+header li a:hover{
+    color: greenyellow;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    align-items: center;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+/* HEADER ENDS */
